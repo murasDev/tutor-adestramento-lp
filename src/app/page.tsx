@@ -1,11 +1,12 @@
-import Header from '@/components/header'
-import AboutUsSection from '@/components/sections/about-us-section'
-import ClientsSection from '@/components/sections/clients-section'
-import ContactSection from '@/components/sections/contact-section'
-import HomeSection from '@/components/sections/home-section'
-import PhilosophySection from '@/components/sections/philosophy-section'
-import ServicesSection from '@/components/sections/services-section'
-import WhatsappButton from '@/components/whatsapp-button'
+import Header from "@/components/header";
+import AboutUsSection from "@/components/sections/about-us-section";
+import ClientsSection from "@/components/sections/clients-section";
+import ContactSection from "@/components/sections/contact-section";
+import HomeSection from "@/components/sections/home-section";
+import LocaleSection from "@/components/sections/locale-section";
+import PhilosophySection from "@/components/sections/philosophy-section";
+import ServicesSection from "@/components/sections/services-section";
+import WhatsappButton from "@/components/whatsapp-button";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <HomeSection />
       <AboutUsSection />
+      <LocaleSection />
       <ServicesSection />
       <PhilosophySection />
       <ClientsSection />
@@ -24,5 +26,5 @@ export default function Home() {
         </div>
       </div>
     </main>
-  )
+  );
 }
